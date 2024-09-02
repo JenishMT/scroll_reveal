@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body class="bg-[#111222]">
+    <section
+      class="relative flex justify-center max-md:hidden align-middle px-20 py-24 text-white sec-01"
+    >
+      <div class="relative flex justify-center items-center flex-col">
+        <h2 class="text-6xl mb-[50px] main-title">Reveal Elements on Scroll</h2>
+        <div class="relative w-[1150px] flex justify-center align-middle">
+          <div class="relative w-[800px] h-[400px] overflow-hidden">
+            <img
+              src="./asset/img1.jpg"
+              alt=""
+              class="z-10 image absolute top-0 left-0 w-[100%] h-[100%] object-cover rounded-lg"
+            />
+          </div>
+          <div
+            class="text-box z-20 bg-[rgba(255,255,255,0.1)] backdrop-sepia-[20px] p-[40px] max-w-[400px] border-solid border-1 border-[rgba(255,255,255,0.1)] rounded-lg"
+          >
+            <h3 class="text-2xl mb-[10px]">Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+              tenetur quam explicabo fugiat aperiam minima, assumenda aliquam
+              molestiae recusandae voluptatibus libero quod perspiciatis. Sequi
+              aspernatur ullam magnam ut provident, natus officia repudiandae
+              eligendi voluptas ducimus, repellat iste hic nihil illo in tenetur
+              rerum praesentium eveniet quae! Optio corrupti error labore!
+            </p>
+          </div>
+        </div>
+        <div class="mt-[100px] media-icons">
+          <a href="#" class="text-white text-2xl m-[60px]"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="text-white text-2xl m-[60px]"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="text-white text-2xl m-[60px]"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="text-white text-2xl m-[60px]"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative sec-02 flex max-md:hidden justify-center align-middle px-20 py-24 text-white"
+    >
+      <div class="relative flex justify-center items-center flex-col">
+        <h3 class="text-5xl mb-[80px] section-title">Lorem Ipsum</h3>
+        <div class="relative w-[1150px] flex justify-center align-middle">
+          <div class="relative w-[800px] h-[400px] overflow-hidden">
+            <img
+              src="./asset/img2.jpg"
+              alt=""
+              class="z-10 image absolute top-0 left-0 w-[100%] h-[100%] object-cover rounded-lg"
+            />
+          </div>
+          <div class="w-[700px] ml-[50px] info">
+            <h4 class="text-[28.8px] mb-[10px]">Description</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+              tenetur quam explicabo fugiat aperiam minima, assumenda aliquam
+              molestiae recusandae voluptatibus libero quod perspiciatis. Sequi
+              aspernatur ullam magnam ut provident, natus officia repudiandae
+              eligendi voluptas ducimus, repellat iste hic nihil illo in tenetur
+              rerum praesentium eveniet quae! Optio corrupti error labore!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative sec-03 flex justify-center mb-[100px] align-middle px-20 py-24 text-white"
+    >
+      <div class="relative flex justify-center items-center flex-col">
+        <h3 class="text-5xl mb-[80px] section-title">Lorem Ipsum</h3>
+        <div class="relative w-[1150px] flex justify-center align-middle">
+          <div class="w-[400px] ml-[50px] media-info">
+            <li class="list-none text-[1.4em]">
+              <a href="#"><i class="fab fa-facebook"></i>facebook</a>
+            </li>
+            <li class="list-none text-[1.4em]">
+              <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            </li>
+            <li class="list-none text-[1.4em]">
+              <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            </li>
+            <li class="list-none text-[1.4em]">
+              <a href="#"><i class="fab fa-youtube"></i>youtube</a>
+            </li>
+            <li class="list-none text-[1.4em]">
+              <a href="#"><i class="fab fa-linkedin"></i>linkedIn</a>
+            </li>
+          </div>
+          <div class="relative w-[800px] h-[400px] overflow-hidden">
+            <img
+              src="./asset/img3.jpg"
+              alt=""
+              class="z-10 image absolute top-0 left-0 w-[100%] h-[100%] object-cover rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+      ScrollReveal().reveal(".main-title,.section-title", {
+        delay: 500,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".sec-01,.image, .info", {
+        delay: 600,
+        origin: "bottom",
+      });
+      ScrollReveal().reveal(".text-box", {
+        delay: 700,
+        origin: "right",
+      });
+      ScrollReveal().reveal(".media-icons i", {
+        delay: 500,
+        origin: "bottom",
+        interval: 200,
+      });
+      ScrollReveal().reveal(".sec-02 .image,.sec-03 .image ", {
+        delay: 500,
+        origin: "top",
+      });
+      ScrollReveal().reveal(".media-info li", {
+        delay: 500,
+        origin: "left",
+        interval: 200,
+      });
+    </script>
+  </body>
+</html>
